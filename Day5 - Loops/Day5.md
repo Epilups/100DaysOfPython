@@ -1,4 +1,4 @@
-# Password Generator 🔐
+# Password Generator
 
 A command-line password generator written in Python that creates randomized passwords from a custom mix of letters, symbols, and numbers.
 
@@ -29,26 +29,3 @@ Characters are retrieved from the pools using a randomly generated index (`lette
 
 ### Building Up a List with `.append()`
 Rather than constructing the password all at once, characters are added one at a time to growing lists using `.append()`, reinforcing the pattern of iteratively building a data structure.
-
-## How to Run
-
-```bash
-python main.py
-```
-
-You will be prompted to enter how many letters, symbols, and numbers you want. The generator will then produce a shuffled password combining all three.
-
-## Example Output
-
-```
-Welcome to the password generator
-How many letters would you like in your password?
-5
-How many symbols would you like in your password?
-3
-How many numbers would you like in your password?
-2
-
-Your password is:
-k@3R!mZ#Qe
-```
